@@ -1,2 +1,4 @@
 ollama
 gradio
+langchain
+langchain-community
