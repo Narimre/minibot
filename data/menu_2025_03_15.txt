@@ -1,0 +1,45 @@
+Restaurant Name: Gourmet Delights 2025.03.15
+
+Appetizers:
+
+Garlic Bread - $5.99
+Freshly baked bread with garlic butter and herbs.
+
+Caesar Salad - $7.99
+Crisp romaine lettuce, parmesan cheese, croutons, and Caesar dressing.
+
+Stuffed Mushrooms - $8.99
+Mushrooms filled with a blend of cheeses and herbs, baked to perfection.
+
+Main Courses:
+
+Grilled Salmon - $18.99
+Freshly grilled salmon served with steamed vegetables and lemon butter sauce.
+
+Chicken Alfredo - $15.99
+Creamy Alfredo pasta topped with grilled chicken and parmesan.
+
+Margherita Pizza - $12.99
+Classic pizza with tomato sauce, mozzarella cheese, and fresh basil.
+
+Desserts:
+
+Chocolate Lava Cake - $6.99
+Warm chocolate cake with a gooey molten center, served with vanilla ice cream.
+
+New York Cheesecake - $7.99
+Classic creamy cheesecake with a graham cracker crust.
+
+Drinks:
+
+Fresh Lemonade - $3.99
+Made with freshly squeezed lemons and a hint of mint.
+
+Iced Coffee - $4.99
+Chilled coffee served with milk and sweetener.
+
+Sparkling Water - $2.99
+Refreshing carbonated water with a slice of lime.
+
+Enjoy your meal at Gourmet Delights!
+
