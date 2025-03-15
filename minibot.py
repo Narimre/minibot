@@ -1,3 +1,4 @@
+import datetime
 from langchain_community.chat_models import ChatOllama
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
@@ -16,6 +17,15 @@ import unstructured
 def load_documents():
     loader = DirectoryLoader("data", glob="*.txt")  # Load text files from data directory
     documents = loader.load()
+    for doc in documents:
+        filename = os.path.basename(doc.metadata["source"])
+        if filename.startswith("menu_") and filename.endswith(".txt"):
+            try:
+                date_str = filename[5:-4]  # Extract date part
+                doc.metadata["date"] = datetime.datetime.strptime(date_str, "%Y_%m_%d").date()
+            except ValueError:
+                doc.metadata["date"] = "Unknown"
+
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=50)
     return text_splitter.split_documents(documents)
 
